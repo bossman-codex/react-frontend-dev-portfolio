@@ -43,7 +43,7 @@
           "https://portfoliocertii.s3.us-east-2.amazonaws.com/Screenshot+(273).png",
           "https://portfoliocertiii.s3.us-east-2.amazonaws.com/Screenshot+(269).png"
         ],
-        "url": "",
+        "url": "certgenerator.netlify.app",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -71,6 +71,38 @@
           }
         ]
       },
+        {
+        "title": "RoboFriends",
+        "startDate": "2019",
+        "description": "A Libary of robot friends , LOL",
+        "images": [
+          "https://portfoliobucket41.s3.us-east-2.amazonaws.com/Screenshot+(288).png",
+          "https://portfoliobucket41.s3.us-east-2.amazonaws.com/Screenshot+(289).png"
+        ],
+        "url": "https://bossman-codex.github.io/robofriends/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          }
+        ]
+      },
+        {
+        "title": "Tic-Tac-Toe",
+        "startDate": "2021",
+        "description": "A game of tic-tac-toe made with reactjs",
+        "images": [
+          "https://portfoliobucket41.s3.us-east-2.amazonaws.com/Screenshot+(284).png",
+          "https://portfoliobucket41.s3.us-east-2.amazonaws.com/Screenshot+(285).png"
+        ],
+        "url": "https://bossman-codex.github.io/tictactoe/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          }
+        ]
+      },
       {
         "title": "Tinder clone Web App",
         "startDate": "2020",
@@ -79,7 +111,7 @@
           "https://portfoliomessageii.s3.us-east-2.amazonaws.com/WhatsApp+Image+2021-12-18+at+11.16.40+PM+(2).jpeg",
           "https://portfoliomessages.s3.us-east-2.amazonaws.com/WhatsApp+Image+2021-12-18+at+11.16.40+PM+(3).jpeg"
         ],
-        "url": "",
+        "url": "https://vibrant-sammet-33aec7.netlify.app",
         "technologies": [
           {
             "class": "devicon-react-original",
