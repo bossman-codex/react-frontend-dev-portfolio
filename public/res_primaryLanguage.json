@@ -43,7 +43,7 @@
           "https://portfoliocertii.s3.us-east-2.amazonaws.com/Screenshot+(273).png",
           "https://portfoliocertiii.s3.us-east-2.amazonaws.com/Screenshot+(269).png"
         ],
-        "url": "certgenerator.netlify.app",
+        "url": "http://certgenerator.netlify.app",
         "technologies": [
           {
             "class": "devicon-react-original",
