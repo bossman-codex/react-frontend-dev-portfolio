@@ -55,6 +55,25 @@
           }
         ]
       },
+        {
+        "title": "Ecommerce Web Application",
+        "startDate": "2022",
+        "description": "An E-COMMERCE Application for electronic devices made with react",
+        "images": [
+          "https://portfoliobucket41.s3.us-east-2.amazonaws.com/Screenshot+(309).png"
+        ],
+        "url": "https://pedantic-babbage-ac9ed0.netlify.app/#/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
       {
         "title": "Netflix clone Web App",
         "startDate": "2020",
