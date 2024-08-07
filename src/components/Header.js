@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import Typical from "react-typical";
+// import Typical from "react-typical";
 import Switch from "react-switch";
+import Type from "./Typewriter";
+import Particle from "./Particles";
 
 class Header extends Component {
   titles = [];
@@ -27,26 +29,39 @@ class Header extends Component {
   render() {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
-      this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
+      this.titles = this.props.sharedData.titles
+        .map((x) => [x.toUpperCase()])
+        .flat();
     }
 
-    const HeaderTitleTypeAnimation = React.memo( () => {
-      return <Typical className="title-styles" steps={this.titles} loop={50} />
-    }, (props, prevProp) => true);
+    // const HeaderTitleTypeAnimation = React.memo(
+    //   () => {
+    //     return (
+    //       <Type className="title-styles" titles={this.titles} />
+    //     );
+    //   },
+    //   (props, prevProp) => true
+    // );
 
     return (
-      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
-        <div className="row aligner" style={{height: '100%'}}>
+      <header
+        id="home"
+        style={{ height: window.innerHeight - 140, display: "block" }}
+      >
+        <Particle/>
+        <div className="row aligner " style={{ height: "100%" }}>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
-              <br/>
-              <h1 className="mb-0">
-                <Typical steps={[name]} wrapper="p" />
+              <span
+                className="iconify header-icon "
+                data-icon="la:laptop-code"
+                data-inline="false"
+              ></span>
+              <br />
+              <h1 className="mb-0">{[name]}</h1>
+              <h1 className="title-container">
+                <Type className="title-styles" titles={this.titles} />
               </h1>
-              <div className="title-container">
-                <HeaderTitleTypeAnimation />
-              </div>
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}

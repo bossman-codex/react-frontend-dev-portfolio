@@ -1,234 +1,183 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Okpara ThankGod. A FullStack Web Developer :) I'm working with newest front-end frameworks like Reactjs. What you are seeing now is portfolio made with Reactjs. Also very passionate about cloud development.",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 I'm Uzo Okpara. JavaScript Developer with 5 years of experience specializing in developing scalable web applications and innovative software solutions. Proven track record of leveraging modern technologies such as JavaScript, Angular, React, Node.js and C# to drive efficiency and improve user experience. Known for a creative approach to solving complex problems and a strong commitment to delivering high-quality software within tight deadlines.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Food Delivery Web Application",
+      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles food delivery and implementing external APIs",
+      "images": [
+        "https://portfoliobucket63.s3.amazonaws.com/OCM.png",
+        "https://portfoliobucket63.s3.amazonaws.com/OCM2.png",
+        "https://portfoliobucket63.s3.amazonaws.com/OCM3.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Food Delivery Web Application",
-        "startDate": "2021",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles food delivery and implementing external APIs",
-        "images": [
-          "https://portfolioimageq.s3.us-east-2.amazonaws.com/Screenshot+(270).png",
-          "https://portfolioimgh.s3.us-east-2.amazonaws.com/Screenshot+(271).png"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Certificate Verifier",
-        "startDate": "2019",
-        "description": "Personal project for storing valid certificates. I was responsible for testing certificate application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I used both React and Node in building the project",
-        "images": [
-          "https://portfoliocert.s3.us-east-2.amazonaws.com/Screenshot+(272).png",
-          "https://portfoliocertii.s3.us-east-2.amazonaws.com/Screenshot+(273).png",
-          "https://portfoliocertiii.s3.us-east-2.amazonaws.com/Screenshot+(269).png"
-        ],
-        "url": "http://certgenerator.netlify.app",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
+    {
+      "title": "Payment Service",
+      "description": "GrovePay is a cutting-edge payment service designed to simplify and secure your financial transactions. Whether you are a business owner, freelancer, or individual, Grovepay offers a seamless platform to send, receive, and manage payments with ease.",
+      "images": [
+        "https://portfoliobucket63.s3.amazonaws.com/Grovepay.png",
+        "https://portfoliobucket63.s3.amazonaws.com/Grovepay2.png"
+      ],
+      "url": "http://grovepay.co.uk/",
+      "technologies": [
         {
-        "title": "Ecommerce Web Application",
-        "startDate": "2022",
-        "description": "An E-COMMERCE Application for electronic devices made with react",
-        "images": [
-          "https://portfoliobucket41.s3.us-east-2.amazonaws.com/Screenshot+(309).png"
-        ],
-        "url": "https://pedantic-babbage-ac9ed0.netlify.app/#/",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "Netflix clone Web App",
-        "startDate": "2020",
-        "description": "A react clone of Netflix UI",
-        "images": [
-          "https://portfoliobucket41.s3.us-east-2.amazonaws.com/Screenshot+(278).png",
-          "https://portfoliobucket41.s3.us-east-2.amazonaws.com/Screenshot+(279).png"
-        ],
-        "url": "https://bossman-codex.github.io/netflixClone/",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          }
-        ]
-      },
+          "class": "devicon-react-original",
+          "name": "React"
+        },
         {
-        "title": "RoboFriends",
-        "startDate": "2019",
-        "description": "A Libary of robot friends , LOL",
-        "images": [
-          "https://portfoliobucket41.s3.us-east-2.amazonaws.com/Screenshot+(288).png",
-          "https://portfoliobucket41.s3.us-east-2.amazonaws.com/Screenshot+(289).png"
-        ],
-        "url": "https://bossman-codex.github.io/robofriends/",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          }
-        ]
-      },
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Ecommerce Web Application",
+      "description": "An E-COMMERCE Application for electronic devices made with react",
+      "images": [
+        "https://portfoliobucket63.s3.amazonaws.com/ecom1.png",
+        "https://portfoliobucket63.s3.amazonaws.com/ecom2.png"
+      ],
+      "url": "https://pedantic-babbage-ac9ed0.netlify.app/",
+      "technologies": [
         {
-        "title": "Tic-Tac-Toe",
-        "startDate": "2021",
-        "description": "A game of tic-tac-toe made with reactjs",
-        "images": [
-          "https://portfoliobucket41.s3.us-east-2.amazonaws.com/Screenshot+(284).png",
-          "https://portfoliobucket41.s3.us-east-2.amazonaws.com/Screenshot+(285).png"
-        ],
-        "url": "https://bossman-codex.github.io/tictactoe/",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          }
-        ]
-      },
-         {
-        "title": "Weather App",
-        "startDate": "2019",
-        "description": "A weather app that shows the current weather condition",
-        "images": [
-          "https://portfoliobucket41.s3.us-east-2.amazonaws.com/Screenshot+(301).png"
-        ],
-        "url": "https://nifty-yalow-c8ecac.netlify.app/",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          }
-        ]
-      },
-      {
-        "title": "Tinder clone Web App",
-        "startDate": "2020",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows how messaging applications work. This was also my first project using Firebase. I've learned a lot!",
-        "images": [
-          "https://portfoliomessageii.s3.us-east-2.amazonaws.com/WhatsApp+Image+2021-12-18+at+11.16.40+PM+(2).jpeg",
-          "https://portfoliomessages.s3.us-east-2.amazonaws.com/WhatsApp+Image+2021-12-18+at+11.16.40+PM+(3).jpeg"
-        ],
-        "url": "https://vibrant-sammet-33aec7.netlify.app",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "InvestLift",
-        "title": "Front-End Developer",
-        "years": "05.2021 - 12-2021",
-        "mainTech": [
-          "React 15/16/17"
-        ],
-        "technologies": [
-          "REST API",
-          "Tailwind CSS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "Redux"
-        ]
-      },
-      {
-        "company": "ZummitInfo Labs",
-        "title": "Intern",
-        "years": "10.2021 - present",
-        "mainTech": [
-          "React 16/17"
-        ],
-        "technologies": [
-          "HTML",
-          "CSS",
-          "JavaScript"
-          
-        ]
-      },
-      {
-        "company": "Freelance",
-        "title": "Front-End Developer",
-        "years": "2019 - Present",
-        "mainTech": [
-          "React 15/16/17"
-        ],
-        "technologies": [
-          "REST API",
-          "Tailwind CSS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "Redux"
-        ]
-      },
-      {
-        "company": "FreeLance",
-        "title": "Back-End Developer",
-        "years": "2020 - Present",
-        "mainTech": [
-          "NodeJs "
-        ],
-        "technologies": [
-          "REST API",
-          "AWS",
-          "ExpressJs",
-          "JavaScript",
-          "Postgres",
-          "MSSQL",
-          "MYsql"
-        ]
-      },
-      {
-        "company": "",
-        "title": "Cloud Developer",
-        "years": "05.2021 - 12-2021",
-        "mainTech": [
-          "AWS"
-        ],
-        "technologies": [
-          "AWS"
-        ]
-        
-      }
-    ]
-  }
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Netflix clone Web App",
+      "description": "A react clone of Netflix UI",
+      "images": [
+        "https://portfoliobucket63.s3.amazonaws.com/netflix1.png",
+        "https://portfoliobucket63.s3.amazonaws.com/netflix2.png"
+      ],
+      "url": "https://bossman-codex.github.io/netflixClone/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "title": "Giftcard Exchange System",
+      "description": "Cambio is a premier platform for exchanging and managing gift cards effortlessly. Whether you have unwanted gift cards or are looking to purchase one, Cambio offers a secure and user-friendly platform to meet your needs.",
+      "images": [
+        "https://portfoliobucket63.s3.amazonaws.com/Cambio.png"
+      ],
+      "url": "https://Cambio.ng/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJs"
+        }
+      ]
+    },
+    {
+      "title": "Tic-Tac-Toe",
+      "description": "A game of tic-tac-toe made with reactjs. Do you think you can beat it? P.S NO ONE HAS BEATEN IT YET",
+      "images": [
+        "https://portfoliobucket63.s3.amazonaws.com/Tictactoe1.png",
+        "https://portfoliobucket63.s3.amazonaws.com/Tictactoe2.png"
+      ],
+      "url": "https://bossman-codex.github.io/tictactoe/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "InvestLift",
+      "title": "Front-End Developer",
+      "years": "05.2021 - 12-2021",
+      "mainTech": ["React 15/16/17"],
+      "technologies": [
+        "REST API",
+        "Tailwind CSS",
+        "JavaScript",
+        "Bootstrap",
+        "MDBootstrap",
+        "Redux"
+      ]
+    },
+    {
+      "company": "ZummitInfo Labs",
+      "title": "Intern",
+      "years": "10.2021 - present",
+      "mainTech": ["React 16/17"],
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "company": "Freelance",
+      "title": "Front-End Developer",
+      "years": "2019 - Present",
+      "mainTech": ["React 15/16/17"],
+      "technologies": [
+        "REST API",
+        "Tailwind CSS",
+        "JavaScript",
+        "Bootstrap",
+        "MDBootstrap",
+        "Redux"
+      ]
+    },
+    {
+      "company": "FreeLance",
+      "title": "Back-End Developer",
+      "years": "2020 - Present",
+      "mainTech": ["NodeJs "],
+      "technologies": [
+        "REST API",
+        "AWS",
+        "ExpressJs",
+        "JavaScript",
+        "Postgres",
+        "MSSQL",
+        "MYsql"
+      ]
+    },
+    {
+      "company": "",
+      "title": "Cloud Developer",
+      "years": "05.2021 - 12-2021",
+      "mainTech": ["AWS"],
+      "technologies": ["AWS"]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
     "basic_info": {
-      "name": "Okpara Thankgod",
+      "name": "Uzo Okpara",
       "titles": [ "Front-end Developer", "Cloud developer", "Full-Stack Web Developer", "WordPress Developer" ],
       "social": [
         {
@@ -9,7 +9,7 @@
           "class": "fab fa-github"
         }
       ],
-      "image": "https://portfoliobucket21.s3.us-east-2.amazonaws.com/WhatsApp+Image+2021-01-02+at+8.47.22+AM.jpeg"
+      "image": "https://portfoliobucket63.s3.amazonaws.com/headshot.jpg"
     },
     "skills": {
       "icons": [
@@ -29,8 +29,8 @@
           "level": "70"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
           "level": "85"
         },
         {
@@ -47,6 +47,26 @@
           "name": "ReactJs",
           "class": "devicon-react-original",
           "level":"85"
+        },
+        {
+          "name": "NodeJs",
+          "class": "devicon-nodejs-plain",
+          "level": "70"
+        },
+        {
+          "name": "WordPress",
+          "class": "devicon-wordpress-plain",
+          "level": "80"
+        },
+        {
+          "name": "C#",
+          "class": "devicon-csharp-plain",
+          "level": "70"
+        },
+        {
+          "name":"ASP.NET",
+          "class": "devicon-dot-net-plain-wordmark",
+          "level": "70"
         }
       ]
     }

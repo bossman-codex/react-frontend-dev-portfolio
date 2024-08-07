@@ -82,7 +82,7 @@ class About extends Component {
                     <br />
                     {about}
                     <p><b>Contact Me</b> <br /> Email : <b>Okparathankgod55@gmail.com</b> </p>
-                    <a style={{color:"black"}} href="www.linkedin.com/in/thankgod-okpara">Linkedin : www.linkedin.com/in/thankgod-okpara</a>
+                    <a style={{color:"blue"}} href="https://linkedin.com/in/uzookpara" target="_blank" rel="noreferrer">Linkedin : www.linkedin.com/in/uzookpara</a>
                   </div>
                 </div>
               </div>
